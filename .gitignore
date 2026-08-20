@@ -24,7 +24,7 @@ backend/**/*.db
 **/*.pyc
 
 # File di lavoro locali
-FantaAI.apk
+*.apk
 *.xlsx
 window-*.xml
 .DS_Store
