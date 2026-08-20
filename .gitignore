@@ -1,0 +1,34 @@
+# Flutter / Dart
+apps/mobile/
+backend/
+**/.dart_tool/
+**/build/
+**/.flutter-plugins*
+**/.packages
+**/private-symbols/
+
+# Android / IDE
+**/android/.gradle/
+**/android/local.properties
+**/*.jks
+**/*.keystore
+.idea/
+.vscode/
+
+# Backend locale e segreti
+backend/.env
+backend/.venv/
+backend/*.db
+backend/**/*.db
+**/__pycache__/
+**/*.pyc
+
+# File di lavoro locali
+FantaAI.apk
+*.xlsx
+window-*.xml
+.DS_Store
+Thumbs.db
+
+# QA locale
+**/*-check.png

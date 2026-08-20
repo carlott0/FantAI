@@ -1,0 +1,10 @@
+{
+  "name": "FantAI",
+  "short_name": "FantAI",
+  "description": "Assistente per asta, rosa, scambi e calendario del Fantacalcio.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090d14",
+  "theme_color": "#090d14",
+  "icons": [{"src":"assets/logo.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+}

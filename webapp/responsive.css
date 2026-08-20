@@ -1,0 +1,12 @@
+body { overflow-x: hidden; }
+.hero > * { min-width: 0; }
+
+@media (max-width: 850px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .hero-copy { min-width: 0; width: 310px; max-width: calc(100vw - 48px); margin-inline: auto; }
+  .hero h1 { font-size: 38px; overflow-wrap: anywhere; }
+  .hero-copy > p { width: 100%; overflow-wrap: anywhere; }
+}
